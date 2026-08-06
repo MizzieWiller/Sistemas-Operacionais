@@ -75,3 +75,52 @@ A memória precisa ser alocada eficientemente para que múltiplos processos coex
 - [x] Criar arquivo Markdown (`.md`) com o resumo completo da Aula 01.
 - [ ] Desenvolver colaborativamente no Miro uma linha do tempo (mapa mental) com os anos de lançamento e evolução histórica dos sistemas operacionais.
 - [ ] Transformar o conteúdo estruturado do Miro em `.md` (Markdown) e registrar o commit no repositório.
+
+
+## 📌 Atividade 01
+# ⏳ Linha do Tempo: Evolução dos Sistemas Operacionais
+
+Esta linha do tempo detalha os principais marcos na história dos Sistemas Operacionais, desde os primeiros sistemas de processamento em lotes até a consolidação dos ecossistemas móveis e modernos.
+
+## 🖥️ A Era dos Mainframes e Linha de Comando
+* **1956 - GM-NAA I/O:** Considerado o primeiro sistema operacional, criado pela General Motors para o IBM 704. Operava com Processamento em Lotes (Batch).
+* **1969 - UNIX:** Desenvolvido no Bell Labs (AT&T) por Ken Thompson e Dennis Ritchie. Introduziu conceitos vitais de multitarefa e sistema de arquivos hierárquico.
+* **1981 - MS-DOS:** A Microsoft lança seu sistema operacional de disco com interface via linha de comando, que dominaria o mercado inicial de PCs da IBM.
+
+## 🖱️ A Revolução das Interfaces Gráficas (GUI)
+* **1984 - Mac OS (System 1):** A Apple populariza a Interface Gráfica do Usuário (GUI) e o uso prático do mouse para navegação.
+* **1985 - Windows 1.0:** A Microsoft introduz sua primeira interface gráfica (que na época rodava como uma camada por cima do MS-DOS).
+* **1991 - Linux (Kernel):** O estudante Linus Torvalds lança o kernel Linux, um marco histórico que impulsionou o desenvolvimento de software livre e de código aberto.
+* **1995 - Windows 95:** Um salto massivo de popularidade com a introdução do Menu Iniciar, barra de tarefas e multitarefa preemptiva nativa, integrando o ambiente gráfico de forma mais robusta.
+
+## 🌐 A Era Moderna e Mobilidade
+* **2001 - Mac OS X e Windows XP:** 
+  * *Mac OS X:* A Apple reescreve a base do seu sistema utilizando um núcleo Unix, trazendo grande estabilidade.
+  * *Windows XP:* A Microsoft abandona o núcleo do DOS para usuários domésticos e unifica tudo na arquitetura NT, trazendo muito mais confiabilidade.
+* **2007 - iOS (iPhone OS):** A Apple revoluciona a interação com dispositivos móveis, focando em telas multitoque sem a necessidade de *stylus*.
+* **2008 - Android:** Lançamento do SO móvel do Google, baseado em kernel Linux, que se tornaria o sistema operacional mais utilizado no mundo.
+* **2015 - Windows 10:** A Microsoft adota oficialmente o modelo de "Sistema Operacional como Serviço" (OSaaS), com atualizações contínuas em vez de grandes lançamentos espaçados.
+* **2021 - Windows 11:** Nova geração focada em segurança moderna (exigência de TPM), design fluido e suporte integrado para subsistema Android.
+
+---
+
+## 📊 Visualização Dinâmica
+
+```mermaid
+timeline
+    title Evolução dos Sistemas Operacionais
+    section Era Inicial
+        1956 : GM-NAA I/O (Primeiro SO)
+        1969 : UNIX (Multitarefa e hierarquia)
+        1981 : MS-DOS (Domínio inicial dos PCs)
+    section Revolução Visual
+        1984 : Mac OS System 1 (Popularização da GUI)
+        1985 : Windows 1.0 (Interface sobre DOS)
+        1991 : Kernel Linux (Open-source)
+        1995 : Windows 95 (Menu Iniciar)
+    section Era Moderna e Mobile
+        2001 : Windows XP / OS X (Núcleo NT e Unix)
+        2007 : iOS (Revolução touch)
+        2008 : Android (Mobile baseado em Linux)
+        2015 : Windows 10 (SO como Serviço)
+        2021 : Windows 11 (Foco em segurança)
