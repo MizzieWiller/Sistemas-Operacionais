@@ -527,3 +527,7 @@ timeline
         Hardware : Chips SoCs, arquitetura ARM e Datacenters[cite: 3]
         Software : Sistemas móveis (Android, iOS)[cite: 3] : Computação em nuvem[cite: 3] : Virtualização e Contêineres (Docker/Kubernetes)[cite: 3] : Sistemas de Tempo Real (RTOS)[cite: 3]
 ```
+---
+
+## 📚 Referências Bibliográficas.
+* **TANENBAUM, Andrew S.; BOS, Herbert.** *Sistemas Operacionais Modernos*. 4. ed. São Paulo: Pearson, 2016.
