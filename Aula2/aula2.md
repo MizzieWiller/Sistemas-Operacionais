@@ -75,13 +75,13 @@ Para fins de documentação, os passos da atividade exigida na aula foram:
 ---
 
 ## Capítulo 1.2: "História dos Sistemas Operacionais"
-📑 *Obra de Referência: **Sistemas Operacionais Modernos** (4ª Edição) — Andrew S. Tanenbaum & Herbert Bos*[cite: 3]
+📑 *Obra de Referência: **Sistemas Operacionais Modernos** (4ª Edição) — Andrew S. Tanenbaum & Herbert Bos*
 
 ---
 
 ## 💾 INTRODUÇÃO GERAL E ANTECEDENTES HISTÓRICOS
 
-A história dos sistemas operacionais é indissociável da evolução do hardware dos computadores[cite: 3]. Historicamente, as mudanças arquiteturais na infraestrutura física forçaram e direcionaram o surgimento de novas camadas de abstração de software[cite: 3]. Para compreender os sistemas operacionais modernos, é necessário examinar como a indústria migrou de processos puramente manuais e mecânicos para arquiteturas multiprogramadas, distribuídas e móveis.
+A história dos sistemas operacionais é indissociável da evolução do hardware dos computadores. Historicamente, as mudanças arquiteturais na infraestrutura física forçaram e direcionaram o surgimento de novas camadas de abstração de software. Para compreender os sistemas operacionais modernos, é necessário examinar como a indústria migrou de processos puramente manuais e mecânicos para arquiteturas multiprogramadas, distribuídas e móveis.
 
 ### A Função Fundamental do Sistema Operacional
 * **Abstração de Hardware:**
@@ -92,108 +92,108 @@ A história dos sistemas operacionais é indissociável da evolução do hardwar
   * Resolve conflitos de requisições concorrentes entre múltiplos programas de maneira justa, segura e eficiente.
 
 ### A Pré-História dos Computadores: A Era Mecânica
-* **Charles Babbage (1792–1871):**[cite: 3]
+* **Charles Babbage (1792–1871):**
   * Projetou a **Máquina Diferencial** para cálculo de tabelas navegais e matemáticas.
-  * Projetou a **Máquina Analítica**, considerada o primeiro projeto teórico de um computador digital universal[cite: 3].
+  * Projetou a **Máquina Analítica**, considerada o primeiro projeto teórico de um computador digital universal.
   * A estrutura contava com "Engenho" (CPU) e "Armazém" (Memória), operada por engrenagens, eixos e rodas dadas.
-  * A máquina era puramente mecânica; devido às limitações tecnológicas da época na usinagem de precisão, nunca pôde ser completamente construída e operacionalizada em sua vida[cite: 3].
-  * A Máquina Analítica não possuía sistema operacional[cite: 3].
-* **Ada Lovelace (1815–1852):**[cite: 3]
-  * Contratada por Babbage para traduzir e anotar os escritos de Luigi Menabrea sobre a Máquina Analítica[cite: 3].
-  * Escreveu o primeiro algoritmo destinado a ser processado por uma máquina (o cálculo dos Números de Bernoulli)[cite: 3].
-  * É reconhecida historicamente como a **primeira programadora do mundo**[cite: 3].
+  * A máquina era puramente mecânica; devido às limitações tecnológicas da época na usinagem de precisão, nunca pôde ser completamente construída e operacionalizada em sua vida.
+  * A Máquina Analítica não possuía sistema operacional.
+* **Ada Lovelace (1815–1852):**
+  * Contratada por Babbage para traduzir e anotar os escritos de Luigi Menabrea sobre a Máquina Analítica.
+  * Escreveu o primeiro algoritmo destinado a ser processado por uma máquina (o cálculo dos Números de Bernoulli).
+  * É reconhecida historicamente como a **primeira programadora do mundo**.
   * Antecipou conceitos de loops, ramificações condicionais e subrotinas.
-  * A linguagem de programação *Ada* foi nomeada em sua homenagem[cite: 3].
+  * A linguagem de programação *Ada* foi nomeada em sua homenagem.
 
 ---
 
-## 🔩 1.2.1 A PRIMEIRA GERAÇÃO (1945–1955): VÁLVULAS E PAINÉIS DE LIGAÇÕES[cite: 3]
+## 🔩 1.2.1 A PRIMEIRA GERAÇÃO (1945–1955): VÁLVULAS E PAINÉIS DE LIGAÇÕES
 
-A Primeira Geração de computadores digitais foi impulsionada pelas necessidades tecnológicas e militares decorrentes da Segunda Guerra Mundial, marcando a transição dos componentes mecânicos para os eletrônicos[cite: 3].
+A Primeira Geração de computadores digitais foi impulsionada pelas necessidades tecnológicas e militares decorrentes da Segunda Guerra Mundial, marcando a transição dos componentes mecânicos para os eletrônicos.
 
-### 1. Principais Marcos Tecnológicos e Máquinas Pioneiras[cite: 3]
+### 1. Principais Marcos Tecnológicos e Máquinas Pioneiras
 * **Computador Atanasoff-Berry (ABC):**
-  * Construído por John Atanasoff e Clifford Berry na Universidade do Estado de Iowa[cite: 3].
-  * Utilizava cerca de 300 válvulas termiônicas e capacitores num tambor rotativo para memória[cite: 3].
-  * Considerado o primeiro computador digital eletrônico funcional para equações lineares[cite: 3].
+  * Construído por John Atanasoff e Clifford Berry na Universidade do Estado de Iowa.
+  * Utilizava cerca de 300 válvulas termiônicas e capacitores num tambor rotativo para memória.
+  * Considerado o primeiro computador digital eletrônico funcional para equações lineares.
 * **Z3 (1941):**
-  * Construído por Konrad Zuse em Berlim, baseado em relés eletromagnéticos[cite: 3].
+  * Construído por Konrad Zuse em Berlim, baseado em relés eletromagnéticos.
   * Primeira máquina de calcular programável e automática do mundo.
 * **Colossus (1943):**
-  * Projetado por uma equipe liderada por Tommy Flowers e Alan Turing em Bletchley Park, Inglaterra[cite: 3].
-  * Focado na criptanálise de mensagens codificadas pela máquina alemã Lorenz SZ40/42[cite: 3].
+  * Projetado por uma equipe liderada por Tommy Flowers e Alan Turing em Bletchley Park, Inglaterra.
+  * Focado na criptanálise de mensagens codificadas pela máquina alemã Lorenz SZ40/42.
 * **Mark I (1944):**
-  * Projetado por Howard Aiken em Harvard em parceria com a IBM[cite: 3].
-  * Dispositivo eletromecânico massivo controlado por fita de papel perfurada[cite: 3].
+  * Projetado por Howard Aiken em Harvard em parceria com a IBM.
+  * Dispositivo eletromecânico massivo controlado por fita de papel perfurada.
 * **ENIAC (Electronic Numerical Integrator and Computer - 1946):**
-  * Projetado por William Mauchly e J. Presper Eckert na Universidade da Pensilvânia[cite: 3].
-  * Continha cerca de 18.000 válvulas, pesava 30 toneladas e consumia 150 kW de potência[cite: 3].
+  * Projetado por William Mauchly e J. Presper Eckert na Universidade da Pensilvânia.
+  * Continha cerca de 18.000 válvulas, pesava 30 toneladas e consumia 150 kW de potência.
   * Usado para cálculos de trajetórias de artilharia e simulações da bomba de hidrogênio.
 
-### 2. Modus Operandi da Primeira Geração[cite: 3]
+### 2. Modus Operandi da Primeira Geração
 * **Ausência Absoluta de Sistema Operacional:**
-  * Não existia qualquer camada de software residente ou intermédio entre o programador e a máquina[cite: 3].
+  * Não existia qualquer camada de software residente ou intermédio entre o programador e a máquina.
 * **Acúmulo de Papéis Unificados:**
-  * O mesmo grupo de indivíduos (engenheiros e matemáticos) era responsável por projetar, construir, programar, operar, diagnosticar falhas e manter a máquina[cite: 3].
-* **Programação em Código de Máquina Absoluto:**[cite: 3]
-  * Não existiam linguagens de alto nível (Fortran, C) e nem linguagens de montagem (*Assembly*)[cite: 3].
-  * A programação consistia na conexão física de milhares de cabos a **painéis de ligações** (*plugboards*) para controlar as rotinas da máquina[cite: 3].
-* **Alocação de Tempo e Processo de Execução:**[cite: 3]
-  * O programador assinava um bloco de tempo (ex.: 2 horas) em uma folha de agendamento fixada na parede[cite: 3].
-  * Entrava fisicamente na sala de máquinas climatizada, inseria seu painel de ligações personalizado e executava o programa[cite: 3].
-  * A confiabilidade era precária; a taxa de falha MFT (Mean Time Between Failures) era baixíssima, sendo comum válvulas queimarem a cada poucos minutos de operação[cite: 3].
-* **Natureza dos Problemas Tratados:**[cite: 3]
-  * Foco quase exclusivo em cálculos numéricos e matemáticos puros (ex.: tabelas de senos, cossenos, logaritmos, matrizes e trajetórias balísticas)[cite: 3].
-* **Transição ao Final da Primeira Geração (Anos 1950):**[cite: 3]
-  * Substituição progressiva dos painéis de ligações por leitores de **cartões perfurados**, eliminando a necessidade de reconfigurar fios e cabos manuais[cite: 3].
+  * O mesmo grupo de indivíduos (engenheiros e matemáticos) era responsável por projetar, construir, programar, operar, diagnosticar falhas e manter a máquina.
+* **Programação em Código de Máquina Absoluto:**
+  * Não existiam linguagens de alto nível (Fortran, C) e nem linguagens de montagem (*Assembly*).
+  * A programação consistia na conexão física de milhares de cabos a **painéis de ligações** (*plugboards*) para controlar as rotinas da máquina.
+* **Alocação de Tempo e Processo de Execução:**
+  * O programador assinava um bloco de tempo (ex.: 2 horas) em uma folha de agendamento fixada na parede.
+  * Entrava fisicamente na sala de máquinas climatizada, inseria seu painel de ligações personalizado e executava o programa.
+  * A confiabilidade era precária; a taxa de falha MFT (Mean Time Between Failures) era baixíssima, sendo comum válvulas queimarem a cada poucos minutos de operação.
+* **Natureza dos Problemas Tratados:**
+  * Foco quase exclusivo em cálculos numéricos e matemáticos puros (ex.: tabelas de senos, cossenos, logaritmos, matrizes e trajetórias balísticas).
+* **Transição ao Final da Primeira Geração (Anos 1950):**
+  * Substituição progressiva dos painéis de ligações por leitores de **cartões perfurados**, eliminando a necessidade de reconfigurar fios e cabos manuais.
 
 ---
 
-## ⚙ 1.2.2 A SEGUNDA GERAÇÃO (1955–1965): TRANSISTORES E SISTEMAS EM LOTE (*BATCH*)[cite: 3]
+## ⚙ 1.2.2 A SEGUNDA GERAÇÃO (1955–1965): TRANSISTORES E SISTEMAS EM LOTE (*BATCH*)
 
-A invenção do transistor nos laboratórios Bell em 1947 (por John Bardeen, Walter Brattain e William Shockley) e sua aplicação comercial em meados dos anos 1950 alteraram radicalmente a confiabilidade da computação[cite: 3].
+A invenção do transistor nos laboratórios Bell em 1947 (por John Bardeen, Walter Brattain e William Shockley) e sua aplicação comercial em meados dos anos 1950 alteraram radicalmente a confiabilidade da computação.
 
-### 1. Mutações Estruturais e Operacionais[cite: 3]
+### 1. Mutações Estruturais e Operacionais
 * **Surgimento dos Mainframes:**
-  * Computadores de grande porte alocados em salas especiais climatizadas e protegidas[cite: 3].
+  * Computadores de grande porte alocados em salas especiais climatizadas e protegidas.
 * **Especialização e Divisão do Trabalho:**
-  * Pela primeira vez na história da computação, ocorreu uma separação rigorosa de funções profissionais:[cite: 3]
-    * Projetistas de hardware (Engenheiros eletrônicos)[cite: 3]
-    * Fabricantes de computadores[cite: 3]
-    * Operadores de sala de máquinas (profissionais dedicados a manusear o computador)[cite: 3]
-    * Programadores (escreviam algoritmos)[cite: 3]
-    * Equipe de manutenção e infraestrutura[cite: 3]
+  * Pela primeira vez na história da computação, ocorreu uma separação rigorosa de funções profissionais:
+    * Projetistas de hardware (Engenheiros eletrônicos)
+    * Fabricantes de computadores
+    * Operadores de sala de máquinas (profissionais dedicados a manusear o computador)
+    * Programadores (escreviam algoritmos)
+    * Equipe de manutenção e infraestrutura
 * **Custo Elevado de Aquisição e Operação:**
-  * As máquinas custavam milhões de dólares e eram acessíveis apenas a governos, corporações multinacionais e grandes universidades[cite: 3].
+  * As máquinas custavam milhões de dólares e eram acessíveis apenas a governos, corporações multinacionais e grandes universidades.
 
-### 2. O Gargalo Operacional Manual[cite: 3]
-No modelo inicial de execução da segunda geração:[cite: 3]
-1. O programador escrevia o código em folhas de codificação (FORTRAN ou *Assembly*)[cite: 3].
-2. O código era entregue a uma operadora de máquina de perfurar cartões[cite: 3].
-3. O deck de cartões perfurados era levado à sala de entrada de tarefas (*job input room*)[cite: 3].
-4. O operador da sala de máquinas carregava manualmente o compilador de uma fita magnética[cite: 3].
-5. O operador inseria os cartões perfurados no leitor e iniciava a execução[cite: 3].
-6. O programa gerava a saída em uma impressora de linha[cite: 3].
-7. A saída impressa era levada à sala de entrega para o programador recolher horas ou dias depois[cite: 3].
+### 2. O Gargalo Operacional Manual
+No modelo inicial de execução da segunda geração:
+1. O programador escrevia o código em folhas de codificação (FORTRAN ou *Assembly*).
+2. O código era entregue a uma operadora de máquina de perfurar cartões.
+3. O deck de cartões perfurados era levado à sala de entrada de tarefas (*job input room*).
+4. O operador da sala de máquinas carregava manualmente o compilador de uma fita magnética.
+5. O operador inseria os cartões perfurados no leitor e iniciava a execução.
+6. O programa gerava a saída em uma impressora de linha.
+7. A saída impressa era levada à sala de entrega para o programador recolher horas ou dias depois.
 * **O Incômodo Problema da Ociosidade:**
-  * A CPU (o recurso mais caro da máquina) ficava ociosa por longos períodos enquanto os operadores trocavam fitas, limpavam impressoras e organizavam pilhas de cartões[cite: 3].
+  * A CPU (o recurso mais caro da máquina) ficava ociosa por longos períodos enquanto os operadores trocavam fitas, limpavam impressoras e organizavam pilhas de cartões.
 
-### 3. A Solução: Sistemas em Lote (*Batch Systems*)[cite: 3]
-Para otimizar o tempo de processamento da CPU e eliminar a intervenção humana entre as tarefas, foram criados os **sistemas em lote**[cite: 3].
+### 3. A Solução: Sistemas em Lote (*Batch Systems*)
+Para otimizar o tempo de processamento da CPU e eliminar a intervenção humana entre as tarefas, foram criados os **sistemas em lote**.
 
 #### Fluxo de Trabalho Integrado de um Sistema Batch:
-1. **Coleta de Tarefas:** Dezenas de programas de programadores diferentes eram reunidos em um lote (*batch*)[cite: 3].
+1. **Coleta de Tarefas:** Dezenas de programas de programadores diferentes eram reunidos em um lote (*batch*).
 2. **Gravação em Fita de Entrada:**
-   * Utilizava-se um computador secundário, menor e barateado (ex.: **IBM 1401**), altamente eficiente na leitura de cartões e manipulação de fitas[cite: 3].
-   * O IBM 1401 lia os cartões perfurados do lote e gravava todos os programas sequencialmente em uma fita magnética de entrada[cite: 3].
+   * Utilizava-se um computador secundário, menor e barateado (ex.: **IBM 1401**), altamente eficiente na leitura de cartões e manipulação de fitas.
+   * O IBM 1401 lia os cartões perfurados do lote e gravava todos os programas sequencialmente em uma fita magnética de entrada.
 3. **Processamento no Computador Principal:**
-   * A fita de entrada era transferida fisicamente para o computador principal de alto desempenho (ex.: **IBM 7094**)[cite: 3].
+   * A fita de entrada era transferida fisicamente para o computador principal de alto desempenho (ex.: **IBM 7094**).
 4. **O Programa Monitor (O Primeiro SO Rudimentar):**
-   * O IBM 7094 rodava um software permanente chamado **Monitor Resident** (ex.: FMS - Fortran Monitor System ou IBSYS)[cite: 3].
-   * O monitor lia a primeira tarefa da fita, carregava o compilador apropriado, executava a tarefa e gravava a resposta em uma fita magnética de saída[cite: 3].
-   * Ao terminar, o monitor passava automaticamente para a próxima tarefa contida na fita, sem pausar a CPU[cite: 3].
+   * O IBM 7094 rodava um software permanente chamado **Monitor Resident** (ex.: FMS - Fortran Monitor System ou IBSYS).
+   * O monitor lia a primeira tarefa da fita, carregava o compilador apropriado, executava a tarefa e gravava a resposta em uma fita magnética de saída.
+   * Ao terminar, o monitor passava automaticamente para a próxima tarefa contida na fita, sem pausar a CPU.
 5. **Impressão Off-line:**
-   * A fita magnética de saída era levada de volta ao IBM 1401, que imprimia todos os resultados fora do computador principal[cite: 3].
+   * A fita magnética de saída era levada de volta ao IBM 1401, que imprimia todos os resultados fora do computador principal.
 
     +-------------------+        +--------------------+        +---------------------+
     |   Programadores   |        |      IBM 1401      |        |      IBM 7094       |
@@ -510,22 +510,22 @@ _A linha do tempo a seguir detalha por geração os principais marcos na histór
 timeline
     title Evolução dos Sistemas Operacionais (Tanenbaum & Bos)
     section Pré-Geração (< 1945)
-        Conceitos : Máquinas mecânicas de Babbage[cite: 3] : Ada Lovelace como primeira programadora[cite: 3] : Ausência de sistemas operacionais[cite: 3]
+        Conceitos : Máquinas mecânicas de Babbage : Ada Lovelace como primeira programadora : Ausência de sistemas operacionais
     section 1ª Geração (1945–1955)
-        Hardware : Válvulas termiônicas[cite: 3] e painéis de ligações[cite: 3]
-        Operação : Agendamento manual[cite: 3] : Programação em código de máquina absoluto[cite: 3]
+        Hardware : Válvulas termiônicas e painéis de ligações
+        Operação : Agendamento manual : Programação em código de máquina absoluto
     section 2ª Geração (1955–1965)
-        Hardware : Surgimento dos transistores e mainframes[cite: 3]
-        Software : Sistemas em lote (Batch)[cite: 3] : Monitores residentes[cite: 3] : Linguagem JCL[cite: 3]
+        Hardware : Surgimento dos transistores e mainframes
+        Software : Sistemas em lote (Batch) : Monitores residentes : Linguagem JCL
     section 3ª Geração (1965–1980)
-        Hardware : Circuitos integrados (CIs)[cite: 3] e IBM System/360
-        Software : Multiprogramação[cite: 3] : Spooling[cite: 3] : Tempo Compartilhado (Timesharing)[cite: 3] : Surgimento do UNIX[cite: 3]
+        Hardware : Circuitos integrados (CIs) e IBM System/360
+        Software : Multiprogramação : Spooling : Tempo Compartilhado (Timesharing) : Surgimento do UNIX
     section 4ª Geração (1980–1990)
-        Hardware : Microprocessadores (LSI / VLSI)[cite: 3]
-        Software : CP/M[cite: 3] : MS-DOS[cite: 3] : Interfaces Gráficas (GUI)[cite: 3] : MINIX[cite: 3] : Kernel Linux inicial[cite: 3]
+        Hardware : Microprocessadores (LSI / VLSI)
+        Software : CP/M : MS-DOS : Interfaces Gráficas (GUI) : MINIX : Kernel Linux inicial
     section 5ª Geração (1990–Presente)
-        Hardware : Chips SoCs, arquitetura ARM e Datacenters[cite: 3]
-        Software : Sistemas móveis (Android, iOS)[cite: 3] : Computação em nuvem[cite: 3] : Virtualização e Contêineres (Docker/Kubernetes)[cite: 3] : Sistemas de Tempo Real (RTOS)[cite: 3]
+        Hardware : Chips SoCs, arquitetura ARM e Datacenters
+        Software : Sistemas móveis (Android, iOS) : Computação em nuvem : Virtualização e Contêineres (Docker/Kubernetes) : Sistemas de Tempo Real (RTOS)
 ```
 ---
 
