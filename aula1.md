@@ -106,25 +106,76 @@ timeline
 
 _Esta linha do tempo detalha os principais marcos na história dos Sistemas Operacionais, desde os primeiros sistemas de processamento em lotes até a consolidação dos ecossistemas móveis e modernos._
 
-## 🖥️ A Era dos Mainframes e Linha de Comando
-* **1956 - GM-NAA I/O:** Considerado o primeiro sistema operacional, criado pela General Motors para o IBM 704. Operava com Processamento em Lotes (Batch).
-* **1969 - UNIX:** Desenvolvido no Bell Labs (AT&T) por Ken Thompson e Dennis Ritchie. Introduziu conceitos vitais de multitarefa e sistema de arquivos hierárquico.
-* **1981 - MS-DOS:** A Microsoft lança seu sistema operacional de disco com interface via linha de comando, que dominaria o mercado inicial de PCs da IBM.
+---
 
-## 🖱️ A Revolução das Interfaces Gráficas (GUI)
-* **1984 - Mac OS (System 1):** A Apple populariza a Interface Gráfica do Usuário (GUI) e o uso prático do mouse para navegação.
-* **1985 - Windows 1.0:** A Microsoft introduz sua primeira interface gráfica (que na época rodava como uma camada por cima do MS-DOS).
-* **1991 - Linux (Kernel):** O estudante Linus Torvalds lança o kernel Linux, um marco histórico que impulsionou o desenvolvimento de software livre e de código aberto.
-* **1995 - Windows 95:** Um salto massivo de popularidade com a introdução do Menu Iniciar, barra de tarefas e multitarefa preemptiva nativa, integrando o ambiente gráfico de forma mais robusta.
+# 🚀 A Jornada dos Sistemas Operacionais: Do Zero à Inteligência Artificial
 
-## 🌐 A Era Moderna e Mobilidade
-* **2001 - Mac OS X e Windows XP:** 
-  * *Mac OS X:* A Apple reescreve a base do seu sistema utilizando um núcleo Unix, trazendo grande estabilidade.
-  * *Windows XP:* A Microsoft abandona o núcleo do DOS para usuários domésticos e unifica tudo na arquitetura NT, trazendo muito mais confiabilidade.
-* **2007 - iOS (iPhone OS):** A Apple revoluciona a interação com dispositivos móveis, focando em telas multitoque sem a necessidade de *stylus*.
-* **2008 - Android:** Lançamento do SO móvel do Google, baseado em kernel Linux, que se tornaria o sistema operacional mais utilizado no mundo.
-* **2015 - Windows 10:** A Microsoft adota oficialmente o modelo de "Sistema Operacional como Serviço" (OSaaS), com atualizações contínuas em vez de grandes lançamentos espaçados.
-* **2021 - Windows 11:** Nova geração focada em segurança moderna (exigência de TPM), design fluido e suporte integrado para subsistema Android.
+A evolução dos Sistemas Operacionais (SO) reflete a própria história da computação. O que antes exigia esforço físico para conectar cabos, hoje ocorre de forma invisível em nossos bolsos e na nuvem. Abaixo, o resumo das **6 grandes gerações**[cite: 2].
+
+---
+
+## ⚙️ 1ª Geração (1945 – 1955): A Era Mecânica e das Válvulas
+Nesta época, **não existiam Sistemas Operacionais**[cite: 2]. O hardware era colossal, caro e frágil.
+
+*   **🛠️ Hardware:** Válvulas a vácuo, relés eletromagnéticos e painéis de fiação[cite: 2].
+*   **👨‍💻 Como funcionava:** A programação era feita fisicamente (conectando e desconectando cabos) ou usando código de máquina absoluto. Uma mesma equipe construía, programava e operava o computador[cite: 2].
+*   **🌟 Marcos:** ENIAC, Colossus e a posterior adoção dos **cartões perfurados** no início dos anos 1950[cite: 2].
+
+---
+
+## 💾 2ª Geração (1955 – 1965): Transistores e o Processamento em Lote
+O computador fica um pouco menor e mais confiável, e surge a necessidade de otimizar o tempo de uso das caras CPUs.
+
+*   **🛠️ Hardware:** Transistores, fitas magnéticas e memórias de núcleo magnético[cite: 2].
+*   **📦 Sistemas em Lote (Batch):** Para não perder tempo, os trabalhos (*jobs*) eram agrupados em fitas magnéticas por um computador menor e processados de uma só vez pelo mainframe[cite: 2].
+*   **🧑‍🔧 Divisão de Tarefas:** Surge a figura do operador de máquina, separada da do programador[cite: 2].
+*   **🌟 Marcos:** Sistemas primitivos como **FMS** e **IBSYS**, além de linguagens como FORTRAN[cite: 2].
+
+---
+
+## 🖥️ 3ª Geração (1965 – 1980): Circuitos Integrados e Multiprogramação
+A era de ouro dos mainframes e o nascimento dos conceitos modernos de computação.
+
+*   **🛠️ Hardware:** Circuitos Integrados (CIs) e discos rígidos primitivos[cite: 2].
+*   **🔄 Multiprogramação & Timesharing:** O SO agora dividia a memória para manter vários programas rodando simultaneamente (Multiprogramação) e permitia que múltiplos usuários usassem a máquina ao mesmo tempo via terminais (*Timesharing*)[cite: 2].
+*   **🌟 Marcos:** 
+    * O icônico **OS/360** da IBM[cite: 2].
+    * **MULTICS**: Pioneiro em abstração de arquivos e segurança[cite: 2].
+    * O nascimento do poderoso **UNIX** (1969), escrito em linguagem C[cite: 2].
+
+---
+
+## 🖱️ 4ª Geração (1980 – 2000): O Computador Pessoal e as Interfaces Gráficas
+A computação sai dos grandes laboratórios e invade as casas e os escritórios.
+
+*   **🛠️ Hardware:** Microprocessadores (LSI/VLSI), PCs de mesa[cite: 2].
+*   **🎨 Interfaces Gráficas (GUI):** Saímos da tela preta com texto para o mundo do mouse, janelas e ícones (WIMP)[cite: 2].
+*   **🌟 Marcos:**
+    * **Mercado Comercial:** **MS-DOS**, Apple Macintosh (1984) e a evolução do **Microsoft Windows** (do 1.0 ao XP)[cite: 2].
+    * **Revolução Open Source:** Andrew Tanenbaum cria o **MINIX**, que inspira Linus Torvalds a lançar o **Linux** em 1991[cite: 2].
+
+---
+
+## 📱 5ª Geração (2000 – 2015): Mobilidade, Nuvem e Virtualização
+A internet se torna onipresente. O computador deixa de ser apenas a máquina na mesa e passa a ser o celular no bolso e o servidor remoto.
+
+*   **🛠️ Hardware:** Processadores Multi-core, Smartphones e Datacenters gigantescos[cite: 2].
+*   **☁️ Computação em Nuvem e VMs:** Consolidação dos Hipervisores (como VMware e Hyper-V). Em vez de rodar um SO direto na máquina física, roda-se dezenas de Máquinas Virtuais no mesmo hardware[cite: 2].
+*   **🌟 Marcos:** A guerra dos SOs móveis vencida pelo **Android** (Google, 2008) e **iOS** (Apple, 2007)[cite: 2].
+
+---
+
+## 🤖 6ª Geração (2015 – Presente): IA, Contêineres e Segurança
+O limite entre hardware, nuvem e inteligência artificial desaparece. A performance extrema e a segurança viram as maiores prioridades.
+
+*   **🛠️ Hardware:** Chips Heterogêneos (SoC, ARM), NPUs (Unidades de Processamento Neural) e Edge Computing[cite: 2].
+*   **🐋 Revolução dos Contêineres:** **Docker** e **Kubernetes** substituem as VMs pesadas por contêineres leves, mudando o gerenciamento de recursos[cite: 2].
+*   **🛡️ Segurança e Observabilidade:** 
+    * Uso da linguagem **Rust** no kernel (Linux e Windows) para evitar falhas de memória[cite: 2].
+    * **eBPF** permitindo rodar códigos de segurança e monitoramento diretamente no núcleo do sistema[cite: 2].
+*   **🌟 Marcos:** A IA passa a ser integrada **nativamente** no SO, orquestrando recursos, privacidade e tarefas locais (Copilot+ PCs, Apple Intelligence)[cite: 2].
+
+> 💡 *A grande lição da evolução dos Sistemas Operacionais é a busca constante por **abstração**: esconder a complexidade brutal do hardware para entregar interfaces simples, seguras e cada vez mais inteligentes aos usuários.*
 
 ---
 
