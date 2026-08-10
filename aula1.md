@@ -80,11 +80,9 @@ A memória precisa ser alocada eficientemente para que múltiplos processos coex
 ## 📌 Atividade 01
 # ⏳ Linha do Tempo: Evolução dos Sistemas Operacionais
 
-
-
 ---
 
-## 📊 Visualização Dinâmica
+## 📊 Visualização Dinâmica:
 
 ```mermaid
 timeline
@@ -106,7 +104,7 @@ timeline
         2021 : Windows 11 (Foco em segurança)
 ```
 
-Esta linha do tempo detalha os principais marcos na história dos Sistemas Operacionais, desde os primeiros sistemas de processamento em lotes até a consolidação dos ecossistemas móveis e modernos.
+_Esta linha do tempo detalha os principais marcos na história dos Sistemas Operacionais, desde os primeiros sistemas de processamento em lotes até a consolidação dos ecossistemas móveis e modernos._
 
 ## 🖥️ A Era dos Mainframes e Linha de Comando
 * **1956 - GM-NAA I/O:** Considerado o primeiro sistema operacional, criado pela General Motors para o IBM 704. Operava com Processamento em Lotes (Batch).
@@ -127,3 +125,13 @@ Esta linha do tempo detalha os principais marcos na história dos Sistemas Opera
 * **2008 - Android:** Lançamento do SO móvel do Google, baseado em kernel Linux, que se tornaria o sistema operacional mais utilizado no mundo.
 * **2015 - Windows 10:** A Microsoft adota oficialmente o modelo de "Sistema Operacional como Serviço" (OSaaS), com atualizações contínuas em vez de grandes lançamentos espaçados.
 * **2021 - Windows 11:** Nova geração focada em segurança moderna (exigência de TPM), design fluido e suporte integrado para subsistema Android.
+
+---
+
+## 📚 Referências Bibliográficas e Web:
+* **TANENBAUM, Andrew S.; BOS, Herbert.** *Sistemas Operacionais Modernos*. 4. ed. São Paulo: Pearson, 2016.
+* **SILBERSCHATZ, Abraham; GALVIN, Peter B.; GAGNE, Greg.** *Fundamentos de Sistemas Operacionais*. 9. ed. Rio de Janeiro: LTC, 2015.
+* **STALLINGS, William.** *Sistemas Operacionais: Conceitos e Projetos*. 8. ed. São Paulo: Pearson, 2015.
+* **IBM.** *O que é um Sistema Operacional?* IBM Think Topics. Disponível em: https://www.ibm.com/br-pt/think/topics/operating-systems
+* **WIKIPEDIA.** *History of operating systems*. Disponível em: https://en.wikipedia.org/wiki/History_of_operating_systems
+
