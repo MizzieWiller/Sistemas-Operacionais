@@ -424,3 +424,27 @@ A evolução dos sistemas operacionais demonstra que o software de sistema nunca
 Desde o controle manual via painéis de ligações na era das válvulas até os complexos orquestradores de contêineres e sistemas móbiles de hoje, o objetivo central dos sistemas operacionais permaneceu inalterado: **gerenciar eficientemente os recursos finitos da máquina e fornecer aos desenvolvedores uma abstração amigável e segura para a resolução de problemas do mundo real**.
 
 Entender essa jornada histórica descrita por Andrew S. Tanenbaum & Herbert Bos é essencial para qualquer profissional de ciência da computação, pois os conceitos projetados nas décadas de 1960 e 1970 — como multiprogramação, tempo compartilhado, arquivos hierárquicos e chamadas de sistema — continuam sendo os alicerces invisíveis sobre os quais toda a tecnologia moderna está construída.
+
+_Esta linha do tempo detalha os principais marcos na história dos Sistemas Operacionais, desde os primeiros sistemas de processamento em lotes, a consolidação dos ecossistemas móveis, modernos e presentes._
+
+```mermaid
+timeline
+    title Evolução dos Sistemas Operacionais (Tanenbaum & Bos)
+    section Pré-Geração (< 1945)
+        Conceitos : Máquinas mecânicas de Babbage[cite: 3] : Ada Lovelace como primeira programadora[cite: 3] : Ausência de sistemas operacionais[cite: 3]
+    section 1ª Geração (1945–1955)
+        Hardware : Válvulas termiônicas[cite: 3] e painéis de ligações[cite: 3]
+        Operação : Agendamento manual[cite: 3] : Programação em código de máquina absoluto[cite: 3]
+    section 2ª Geração (1955–1965)
+        Hardware : Surgimento dos transistores e mainframes[cite: 3]
+        Software : Sistemas em lote (Batch)[cite: 3] : Monitores residentes[cite: 3] : Linguagem JCL[cite: 3]
+    section 3ª Geração (1965–1980)
+        Hardware : Circuitos integrados (CIs)[cite: 3] e IBM System/360
+        Software : Multiprogramação[cite: 3] : Spooling[cite: 3] : Tempo Compartilhado (Timesharing)[cite: 3] : Surgimento do UNIX[cite: 3]
+    section 4ª Geração (1980–1990)
+        Hardware : Microprocessadores (LSI / VLSI)[cite: 3]
+        Software : CP/M[cite: 3] : MS-DOS[cite: 3] : Interfaces Gráficas (GUI)[cite: 3] : MINIX[cite: 3] : Kernel Linux inicial[cite: 3]
+    section 5ª Geração (1990–Presente)
+        Hardware : Chips SoCs, arquitetura ARM e Datacenters[cite: 3]
+        Software : Sistemas móveis (Android, iOS)[cite: 3] : Computação em nuvem[cite: 3] : Virtualização e Contêineres (Docker/Kubernetes)[cite: 3] : Sistemas de Tempo Real (RTOS)[cite: 3]
+```
